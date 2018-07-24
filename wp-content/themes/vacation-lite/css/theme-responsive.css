@@ -1,0 +1,158 @@
+/* Mobile Portrait View */
+
+@media screen and (max-width:479px) {
+
+*{box-sizing:border-box;}
+.container { width:95%;}
+.header { width:100%; padding:0px; position:inherit !important; background:#000000 !important;}
+.header .header-inner { width:95%; padding:0;}
+.header .header-inner .header-top { padding:10px 0px;}
+.header-top .top-left { width:100%; padding-left:0; text-align:center;}
+.header-top .top-left p { display:inline-block; float:none;}
+.header-top .top-right { padding-right:0; width:100%; display:inline-block; text-align:center;}
+.header-top .top-right .social-icons a { float:none; display:inline-block;}
+.header .header-inner .logo{ float:none; text-align:center;}
+.nav{display:none;}
+.header .header-inner .nav{float:none; margin:0; position:relative; overflow-x:hidden; }
+.header .header-inner .header-bottom .nav ul{background:#101011; width:100%; float:none !important; margin-top:0;}
+.header .header-inner .nav ul li{border-top:1px #303030 solid; display:block; float:none; text-align:left; font-weight:normal;}
+.nav ul li a{padding:5px 10px; display:block;}
+.header .header-inner .header-bottom .nav ul li a:hover{ color:#01adf5; background:none;}
+.header .header-inner .header-bottom .nav ul li.current-menu-item {background:none;}
+.header .header-inner .header-bottom .nav ul li:hover a.parent {background:none;}
+.nav ul li ul, .nav ul li ul ul{ display:block !important;}
+.nav ul li ul li a:before{content:"\00BB \00a0";}
+.header .header-inner .header-bottom .nav ul li ul li a{padding-left:35px;}
+.nav ul li ul li ul li a{padding-left:30px !important;}
+
+
+.toggle{display:block;}
+.toggle a{width:100%; color:#ffffff; background:url(../images/mobile_nav_right.png) no-repeat right center #222222; padding:10px 10px; margin-top:20px; font-size:16px;}
+.toggle a:hover{ color:#ffffff !important;}
+.toggle a.active{color:#01adf5;}
+#slider .top-bar{ top:20px !important; padding-bottom:17px;}
+#slider .top-bar h2{ font-size:17px !important; padding-bottom:25px !important; line-height:20px; padding-left:0; padding-right:0; text-align:center;}
+#slider .top-bar h4{ font-size:11px !important; padding-left:0; padding-right:0; text-align:center; padding-bottom:5px;}
+#slider .top-bar p{ display:none;}
+#slider .top-bar a.read-more{ display:none;}
+.nivo-caption{ top:0 !important; width:100% !important; left:0 !important;}
+a.contact{ margin-top:5px !important; font-size:12px !important;}
+.nivo-directionNav a{ top:40% !important;}
+
+/* --------- Pages ------- */
+.content-area{ width:95%; margin:0 auto; padding:50px 0;}
+.site-main{ width:100%; margin:0; padding:0; float:none;}
+.site-main h1.entry-title { font-size:25px;}
+.post-date, .post-comment a, .post-categories a { font-size:11px;}
+#sidebar{ width:auto; margin:60px 0 0; padding:0; float:none;}
+.copyright-wrapper .inner{ width:100%;}
+.copyright { width:auto; padding:0 20px;}
+.entry-content iframe{ max-width:100%; height:auto;}
+}
+
+/* Mobile Landscape View */
+
+@media screen and (max-width:719px) and (min-width:480px) { 
+*{box-sizing:border-box;}
+.container { width:95%; padding:0;}
+.header { position:inherit !important; background:#000000 !important;}
+.header .header-inner{ width:95%; padding:0;}
+.header .header-inner .header-top { padding:10px 0px;}
+.header-top .top-left { width:100%; padding-left:0; text-align:center;}
+.header-top .top-left p { display:inline-block; float:none;}
+.header-top .top-right { padding-right:0; width:100%; display:inline-block; text-align:center;}
+.header-top .top-right .social-icons a { float:none; display:inline-block;}
+.header .header-inner .logo{ float:none; text-align:center;}
+.toggle{display:block;}
+.toggle a{width:100%; color:#ffffff; background:url(../images/mobile_nav_right.png) no-repeat right center #222222; padding:10px 10px; margin-top:20px; font-size:16px;}
+.toggle a.active{color:#0fa5d9;}
+.nav{display:none;}
+.header .header-inner .nav{float:none; margin:0; position:relative; overflow-x:hidden; }
+.header .header-inner .header-bottom .nav ul{background:#101011; width:100%; float:none !important; margin-top:0;}
+.header .header-inner .nav ul li{border-top:1px #303030 solid; display:block; float:none; text-align:left; font-weight:normal;}
+.nav ul li a{padding:5px 10px; display:block;}
+.header .header-inner .header-bottom .nav ul li a:hover{ color:#01adf5; background:none;}
+.header .header-inner .header-bottom .nav ul li.current-menu-item {background:none;}
+.header .header-inner .header-bottom .nav ul li:hover a.parent {background:none;}
+.nav ul li ul, .nav ul li ul ul{ display:block !important;}
+.nav ul li ul li a:before{content:"\00BB \00a0";}
+.header .header-inner .header-bottom .nav ul li ul li a{padding-left:35px;}
+.nav ul li ul li ul li a{padding-left:30px !important;}
+#slider .top-bar{ top:35px !important; padding-bottom:32px;}
+#slider .top-bar h2{ font-size:24px !important; padding-bottom:10px !important; line-height:35px; padding-left:0; padding-right:0; text-align:center;}
+#slider .top-bar h4{ font-size:15px !important; padding-left:0; padding-right:0; text-align:center;}
+#slider .top-bar a.read-more{ display:none;}
+#slider .nivo-caption{ top:5%; width:80% !important; height:90%; left:10%;}
+#slider .top-bar a{ font-size:18px; padding:8px 20px; margin-top:20px;}
+#slider .top-bar p{ display:none;}
+.nivo-directionNav a{ top:39% !important;}
+#prevslide, #nextslide{ top:0;}
+
+/* --------- Pages ------- */
+.content-area{ width:95%; margin:0 auto; padding:50px 0;}
+.site-main{ width:100%; margin:0; padding:0; float:none;}
+.site-main h1.entry-title { font-size:25px;}
+.post-date, .post-comment a, .post-categories a { font-size:11px;}
+.post-thumb img { float:none;}
+#sidebar{ width:auto; margin:60px 0 0; padding:0; float:none;}
+.copyright-wrapper .inner{ width:95%;}
+.entry-content iframe{ max-width:100%; height:auto;}
+}
+
+
+/* Tablet View */
+@media screen and (max-width:999px) and (min-width:720px) { 
+*{box-sizing:border-box;}
+.container { width:95%;}
+.header { padding:0; position:inherit !important; background:#000000 !important;}
+.header .header-inner{ width:95%; padding:0;}
+.header .header-inner .logo{ float:none; text-align:center;}
+.toggle{display:block;}
+.toggle a{width:100%; color:#ffffff; background:url(../images/mobile_nav_right.png) no-repeat right center #222222; padding:10px 10px; margin-top:20px; font-size:16px;}
+.toggle a.active{color:#0fa5d9;}
+.nav{display:none;}
+.header .header-inner .nav{float:none; margin:0; position:relative; overflow-x:hidden; }
+.header .header-inner .header-bottom .nav ul{background:#101011; width:100%; float:none !important; margin-top:0;}
+.header .header-inner .nav ul li{border-top:1px #303030 solid; display:block; float:none; text-align:left; font-weight:normal;}
+.nav ul li a{padding:5px 10px; display:block;}
+.header .header-inner .header-bottom .nav ul li a:hover{ color:#01adf5; background:none;}
+.header .header-inner .header-bottom .nav ul li.current-menu-item {background:none;}
+.header .header-inner .header-bottom .nav ul li:hover a.parent {background:none;}
+.nav ul li ul, .nav ul li ul ul{ display:block !important;}
+.nav ul li ul li a:before{content:"\00BB \00a0";}
+.header .header-inner .header-bottom .nav ul li ul li a{padding-left:35px;}
+.nav ul li ul li ul li a{padding-left:30px !important;}
+.nivo-caption{ top:0 !important; height:100% !important; width:69% !important;}
+#slider .top-bar{ top:45px !important; margin-bottom:0;}
+a.read-more, .common_btn{ margin-top:2px;}
+#slider .top-bar p{ font-size:12px !important; line-height:17px !important;}
+#slider .top-bar h2{ font-size:25px !important; padding-bottom:10px !important; line-height:34px;}
+#slider .top-bar h4{ font-size:17px !important;}
+a.contact{ margin-top:15px !important; font-size:18px !important;}
+.nivo-directionNav a{ top:40% !important;}
+
+/* --------- Pages ------- */
+.content-area{ width:auto; margin:0 20px; padding:50px 0;}
+.site-main{ width:60%; margin:0; padding:0; float:left;}
+.post-thumb img { float:none;}
+#sidebar{ width:35%; margin:0; padding:0; float:right;}
+.copyright-wrapper .inner{ width:95%; margin: auto;}
+.copyright { width:auto; padding:0 20px;}
+}
+
+@media screen and (min-width: 1000px) {
+.header .header-inner .nav ul li ul li{display:block; position:relative; float:none; }
+.header .header-inner .nav ul li ul li a{color:#000; display:block; padding-top:10px; padding-bottom:10px; border-bottom:1px #313131 solid;}
+}
+
+@media screen and (min-width:1000px) and (max-width:1159px){
+	.header .header-inner, .container, .copyright-wrapper .inner{ width:95%;}
+	#slider .nivo-caption{ top:30% !important; height:auto !important;}
+	#slider .top-bar h4 { padding:10px 10px 0;}
+	#slider .top-bar h2 { padding-left:10px;}
+	#slider .top-bar p { padding-left:10px;}
+	.content-area { width:95%;}
+	.site-main{ width:70%; margin:0; padding:0; float:left;}
+	#sidebar{ width:25%; margin:0; padding:0; float:right;}
+	.cat_comments .cat{ width:48%;}	
+}

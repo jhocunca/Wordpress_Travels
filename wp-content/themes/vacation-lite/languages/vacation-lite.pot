@@ -1,0 +1,298 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Vacation Lite\n"
+"POT-Creation-Date: 2016-09-25 21:32+0530\n"
+"PO-Revision-Date: 2016-09-25 21:32+0530\n"
+"Last-Translator: \n"
+"Language-Team: Flythemes Team <support@flythemes.net>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+
+
+#: 404.php:14
+msgid "<strong>404</strong> Not Found"
+msgstr ""
+
+#: 404.php:17
+msgid ""
+"Looks like you have taken a wrong turn.....<br />Don't worry... it happens "
+"to the best of us."
+msgstr ""
+
+#: comments.php:36
+#: comments.php:56
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:37
+#: comments.php:57
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:38
+#: comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: content-page.php:18
+#: content-single.php:28
+#: content.php:36
+#: image.php:59
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:23
+#: content-single.php:40
+#: content.php:70
+#: image.php:33
+#: image.php:65
+#: inc/template-tags.php:23
+#: inc/template-tags.php:42
+msgid "Edit"
+msgstr ""
+
+#: content-single.php:33
+#: content.php:14
+#: content.php:47
+#: content.php:57
+msgid ", "
+msgstr ""
+
+#: content.php:29
+msgid "Read More &raquo;"
+msgstr ""
+
+#: content.php:33
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content.php:51
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: content.php:61
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: content.php:67
+msgid "Leave a comment"
+msgstr ""
+
+#: content.php:67
+msgid "1 Comment"
+msgstr ""
+
+#: content.php:67
+msgid "% Comments"
+msgstr ""
+
+#: footer.php:13
+msgid "Powered by WordPress."
+msgstr ""
+
+#: functions.php:33
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:46
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:47
+msgid "Appears on blog page sidebar"
+msgstr ""
+
+#: functions.php:56
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:57
+msgid "Appears on page sidebar"
+msgstr ""
+
+#: header.php:58
+msgid "Menu"
+msgstr ""
+
+#: header.php:102
+#: inc/customizer.php:172
+msgid "Learn More"
+msgstr ""
+
+#: header.php:120
+#: inc/customizer.php:198
+msgid "Planing Your Next Vacation"
+msgstr ""
+
+#: header.php:121
+#: inc/customizer.php:210
+msgid "Ready to plan your next getway? Get advice from Vacation"
+msgstr ""
+
+#: image.php:23
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> at <a href=\"%3$s\">%4$s &times; %5$s</a> in <a "
+"href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+
+#: image.php:38
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: image.php:39
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: no-results.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: search.php:15
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: sidebar-page.php:15
+#: sidebar.php:15
+msgid "Archives"
+msgstr ""
+
+#: sidebar-page.php:21
+#: sidebar.php:21
+msgid "Meta"
+msgstr ""
+
+#: inc/customizer.php:38
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/customizer.php:39
+msgid "<strong>Select color for theme.</strong>"
+msgstr ""
+
+#: inc/customizer.php:46
+msgid "Topbar contact and icons"
+msgstr ""
+
+#: inc/customizer.php:47
+msgid "Add contact details and social icons here. </strong>"
+msgstr ""
+
+#: inc/customizer.php:57
+msgid "Add facebook icon link"
+msgstr ""
+
+#: inc/customizer.php:69
+msgid "Add twitter icon link"
+msgstr ""
+
+#: inc/customizer.php:81
+msgid "Add linkedin icon link"
+msgstr ""
+
+#: inc/customizer.php:93
+msgid "Add google plus icon link"
+msgstr ""
+
+#: inc/customizer.php:104
+msgid "Check this to hide topbar"
+msgstr ""
+
+#: inc/customizer.php:115
+msgid "Slider Settings"
+msgstr ""
+
+#: inc/customizer.php:117
+msgid "Recommended image size (1420x567)"
+msgstr ""
+
+#: inc/customizer.php:129
+msgid "Select page for slide one:"
+msgstr ""
+
+#: inc/customizer.php:141
+msgid "Select page for slide two:"
+msgstr ""
+
+#: inc/customizer.php:153
+msgid "Select page for slide three:"
+msgstr ""
+
+#: inc/customizer.php:167
+msgid "Check this to hide slider"
+msgstr ""
+
+#: inc/customizer.php:180
+msgid "Add slider link text here"
+msgstr ""
+
+#: inc/customizer.php:191
+msgid "Welcome Section"
+msgstr ""
+
+#: inc/customizer.php:193
+msgid "Add welcome box content here."
+msgstr ""
+
+#: inc/customizer.php:205
+msgid "Add welcome title and subtitle here."
+msgstr ""
+
+#: inc/customizer.php:229
+msgid "Check this to hide title and subtitle"
+msgstr ""
+
+#: inc/customizer.php:288
+msgid "Check this to hide services box"
+msgstr ""
+
+#: inc/template-tags.php:23
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:36
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> on"
+msgstr ""
+
+#: inc/template-tags.php:46
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:137
+#, php-format
+msgid ""
+"<span class=\"posted-on\">Published %1$s</span><span class=\"byline\"> by "
+"%2$s</span>"
+msgstr ""
