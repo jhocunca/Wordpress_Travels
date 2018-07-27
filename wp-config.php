@@ -26,7 +26,7 @@ define('DB_NAME', 'wordpress');
 define('DB_USER', 'nextu');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'Carvajal2019');
+define('DB_PASSWORD', 'Carvajal2018');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');

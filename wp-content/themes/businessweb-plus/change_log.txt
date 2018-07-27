@@ -1,0 +1,27 @@
+Version 1.0.0
+i) Intial version Release
+
+Version 1.1.0
+i) changes done as per new guideline
+
+Version 1.2.0
+i) fixed Remaining some issue as per new guideline
+
+Version 1.3.0
+i) footer manage from widget.
+ii) Proper tag listing in style.css
+iii) and fixed minor issue as per new guideline.
+
+Version 1.4.0
+i) Removed Header info section from customizer
+ii) Proper handle third party js and css
+
+Version 1.5.0
+i)  Removed inline CSS
+ii) Proper handle wp_link_pages function page.php and full width templates
+iii) All issue solved as per reviewer pointed.
+
+Version 1.6.0
+i)  Use Default add_editor_style function
+
+
